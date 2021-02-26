@@ -9,8 +9,6 @@ fn main() {
     let ctrldkey = false;
     while !done {
         let mut input: String = input().msg("> ").get();
-        let mut inp = input;
-        lexar(inp);
         println!("{}", input);
         if ctrldkey == true {
             done = true;
