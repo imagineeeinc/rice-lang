@@ -1,0 +1,21 @@
+{
+  "name": "rice-lang",
+  "version": "1.0.0",
+  "description": "a small, fast and efficiency-based programing language for fast prototyping and more",
+  "scripts": {
+    "cli": "cargo run --bin rice",
+    "rice-c": "cargo run --bin rice-c",
+    "rice-run": "cargo run --bin rice-run",
+    "pack": "cargo build --release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imagineeeinc/rice-lang.git"
+  },
+  "author": "imagineee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imagineeeinc/rice-lang/issues"
+  },
+  "homepage": "https://github.com/imagineeeinc/rice-lang#readme"
+}

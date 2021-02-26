@@ -3,7 +3,22 @@ name = "rice-lang"
 version = "0.1.0"
 authors = ["Imagineeeinc <59028351+imagineeeinc@users.noreply.github.com>"]
 edition = "2018"
+readme="README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "rice"
+path = "src/cli.rs"
+
+[[bin]]
+name = "rice-c"
+path = "src/compile-byte.rs"
+
+[[bin]]
+name = "rice-run"
+path = "src/file-interpreter.rs"
+
 [dependencies]
+read_input = "0.8.4"
+rustyline = "7.1.0"
